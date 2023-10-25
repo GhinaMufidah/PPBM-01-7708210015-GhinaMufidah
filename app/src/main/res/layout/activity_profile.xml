@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/duaplanet"
+    tools:context=".Profile">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:background="@color/royalblue"
+        app:popupTheme="@style/AstronomyToolbarPopupTheme" />
+
+
+    <!-- Nama Pengguna -->
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Pengguna"
+        android:fontFamily="@font/planetxcondital"
+        android:textSize="35sp"
+        android:textColor="@color/primarycolor"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/profileImage"
+        android:layout_marginTop="70dp" />
+
+    <!-- Email Pengguna -->
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contoh@email.com"
+        android:textSize="20sp"
+        android:fontFamily="@font/planetxcondital"
+        android:textColor="@color/primarycolor"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/usernameTextView"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="369dp"
+        android:layout_height="573dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/square_bg" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="-130dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/logo" />
+
+    <!-- Foto Profil -->
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bulat_background"
+        android:scaleType="centerCrop" />
+
+    <!-- Tombol Edit Profil -->
+    <Button
+        android:id="@+id/editProfileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profil"
+        android:layout_marginLeft="270dp"
+        android:layout_below="@id/emailTextView"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/button" />
+
+    <Button
+        android:id="@+id/ownerpfp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profil owner"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/emailTextView"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/button" />
+
+    <ImageView
+        android:id="@+id/google"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/usernameTextView"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/gogle" />
+
+    <ImageView
+        android:id="@+id/apple"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/usernameTextView"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/apple_2504884" />
+
+    <ImageView
+        android:id="@+id/twitch"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/usernameTextView"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/twitch_2504946" />
+
+    <ImageView
+        android:id="@+id/yt"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/usernameTextView"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="230dp"
+        app:srcCompat="@drawable/youtube_2504965" />
+
+
+    <ImageView
+        android:id="@+id/spo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/usernameTextView"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="230dp"
+        app:srcCompat="@drawable/spotify_2504940" />
+
+    <ImageView
+        android:id="@+id/twt"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/usernameTextView"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="230dp"
+        app:srcCompat="@drawable/twitter_2504947" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/white_bg" />
+
+
+</RelativeLayout>

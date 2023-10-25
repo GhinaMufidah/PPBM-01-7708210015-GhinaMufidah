@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PPMB_A1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/gold</item>
+    </style>
+
+    <style name="AstronomyToolbarPopupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/royalblue</item> <!-- Ganti dengan warna latar belakang yang diinginkan -->
+        <item name="android:textColor">@color/gold</item> <!-- Ganti dengan warna teks yang diinginkan -->
+    </style>
+
+</resources>

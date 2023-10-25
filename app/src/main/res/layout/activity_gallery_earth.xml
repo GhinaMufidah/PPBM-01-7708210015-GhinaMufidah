@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageView"
+        android:layout_marginTop="-15dp"
+        android:layout_marginLeft="190dp"
+        android:fontFamily="@font/planetxcompact"
+        android:text="sun"
+        android:textColor="@color/gold"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="383dp"
+        android:layout_height="663dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/square_bg" />
+
+    <ImageView
+        android:id="@+id/venus"
+        android:layout_width="147dp"
+        android:layout_height="335dp"
+        android:src="@drawable/sun_9672697" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="230dp"
+        android:textColor="@color/primarycolor"
+        android:text="Matahari atau Surya adalah bintang di pusat tata surya. Bentuknya nyaris bulat dan terdiri dari plasma panas bercampur medan magnet. Diameternya sekitar 1.392.684 km, kira-kira 109 kali diameter Bumi, dan massanya mewakili kurang lebih 99,86 % massa total tata surya.
+        \nSuhu permukaan: 5.772 K
+        \nMassa: 1,989E30 kg
+        \nGravitasi: 274 m/s²
+        \nJarak ke Bumi: 149,6 juta km
+        \nRadius rata-rata: 696.340 km
+        \nUsia: 4,603 miliar tahun
+        \nSuhu: pusat (permodelan); 1,57×107 K; fotosfer (efektif); 5772 K; korona; ≈ 5×106 K"
+        android:fontFamily="@font/poppins"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="-130dp"
+        android:src="@drawable/logo" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="590dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

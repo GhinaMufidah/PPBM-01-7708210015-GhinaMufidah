@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageView"
+        android:layout_marginTop="-15dp"
+        android:layout_marginLeft="130dp"
+        android:fontFamily="@font/planetxcompact"
+        android:text="neptune"
+        android:textColor="@color/gold"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="383dp"
+        android:layout_height="663dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/square_bg" />
+
+    <ImageView
+        android:id="@+id/venus"
+        android:layout_width="147dp"
+        android:layout_height="305dp"
+        android:src="@drawable/neptune_2193367"
+        android:layout_marginTop="-45dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="190dp"
+        android:fontFamily="@font/poppins"
+        android:text="Neptunus merupakan planet terjauh jika ditinjau dari Matahari. Planet ini dinamai dari dewa lautan Romawi. Neptunus merupakan planet terbesar keempat berdasarkan diameter dan terbesar ketiga berdasarkan massa. Massa Neptunus tercatat 17 kali lebih besar daripada Bumi, dan sedikit lebih kecil daripada Uranus.
+        \nJarak dari Matahari: 4,495 miliar km
+        \nLuas permukaan: 7,618 miliar km²
+        \nMassa: 1,024E26 kg (17,15 M⊕′)
+        \nGravitasi: 11,15 m/s²
+        \nLama satu hari: 0 h 16 j 6 m"
+        android:textColor="@color/primarycolor"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="-130dp"
+        android:src="@drawable/logo" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/imageView1"
+            android:layout_marginTop="-70dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/gummy"
+            android:text="Membership"
+            android:textColor="@color/gold"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="397dp"
+            android:layout_height="170dp"
+            android:layout_marginVertical="180dp"
+            android:layout_marginRight="30dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/button" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="397dp"
+            android:layout_height="170dp"
+            android:layout_marginVertical="380dp"
+            android:layout_marginRight="30dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/button" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="397dp"
+            android:layout_height="170dp"
+            android:layout_marginVertical="580dp"
+            android:layout_marginRight="30dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/button" />
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="220dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginTop="-230dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/TIER1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="180dp"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/nasa"
+            android:text="TIER 1"
+            android:textColor="@color/primarycolor"
+            android:textSize="50dp" />
+
+
+        <TextView
+            android:id="@+id/detailPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="250dp"
+            android:layout_marginLeft="70dp"
+            android:text="$20"
+            android:textColor="@color/primarycolor"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/TIER2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="380dp"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/nasa"
+            android:text="TIER 2"
+            android:textColor="@color/primarycolor"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/detailPrice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="450dp"
+            android:layout_marginLeft="70dp"
+            android:text="$50"
+            android:textColor="@color/primarycolor"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/TIER3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="580dp"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/nasa"
+            android:text="TIER 3"
+            android:textColor="@color/primarycolor"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/detailprice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="650dp"
+            android:layout_marginLeft="70dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="$75"
+            android:textColor="@color/primarycolor"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/tier3logo"
+            android:layout_width="145dp"
+            android:layout_height="199dp"
+            android:layout_marginVertical="520dp"
+            android:layout_marginLeft="230dp"
+            app:srcCompat="@drawable/spaceship_3049628" />
+
+        <ImageView
+            android:id="@+id/tier2logo"
+            android:layout_width="145dp"
+            android:layout_height="199dp"
+            android:layout_marginVertical="320dp"
+            android:layout_marginLeft="230dp"
+            app:srcCompat="@drawable/telescope_3049605" />
+
+        <ImageView
+            android:id="@+id/tier1logo"
+            android:layout_width="145dp"
+            android:layout_height="199dp"
+            android:layout_marginVertical="120dp"
+            android:layout_marginLeft="230dp"
+            app:srcCompat="@drawable/uranus_3049553" />
+
+
+        <!-- Include the Google Pay button layout here -->
+
+        <include android:id="@+id/googlePayButton"
+            layout="@layout/buy_with_googlepay_button"
+            android:layout_width="261dp"
+            android:layout_height="38dp"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"/>
+
+        <include
+            android:id="@+id/googlePayButton1"
+            layout="@layout/buy_with_googlepay_button"
+            android:layout_width="261dp"
+            android:layout_height="38dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"/>
+
+        <include
+            android:id="@+id/googlePayButton2"
+            layout="@layout/buy_with_googlepay_button"
+            android:layout_width="261dp"
+            android:layout_height="38dp"
+            android:layout_alignBottom="@+id/imageView3"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/white_bg" />
+
+    </RelativeLayout>
+</ScrollView>

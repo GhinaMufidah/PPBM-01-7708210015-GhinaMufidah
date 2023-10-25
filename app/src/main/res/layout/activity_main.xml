@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/splashdepan"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="230dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/nasa"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="AS
+        TRO
+        NO
+        MI"
+        android:textColor="#FFC107"
+        android:textSize="70dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:shadowColor="@color/primarycolor"
+        android:text="TAP TO START" />
+
+</RelativeLayout>

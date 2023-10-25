@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageView"
+        android:layout_marginTop="-15dp"
+        android:layout_marginLeft="170dp"
+        android:fontFamily="@font/planetxcompact"
+        android:text="Venus"
+        android:textColor="@color/gold"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="383dp"
+        android:layout_height="663dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/square_bg" />
+
+    <ImageView
+        android:id="@+id/venus"
+        android:layout_width="147dp"
+        android:layout_height="335dp"
+        android:src="@drawable/venus_3594270" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        android:textColor="@color/primarycolor"
+        android:text="Venus adalah planet terdekat kedua dari Matahari setelah Merkurius. Planet ini mengorbit Matahari selama 224,7 hari Bumi. Venus tidak memiliki satelit alami dan dinamai dari dewi cinta dan kecantikan dalam mitologi Romawi.
+        \nGravitasi: 8,87 m/s² \nLuas permukaan: 460,2 juta km²
+        \nLama satu hari: 243 h 0 j 0 m\nJarak dari Matahari: 108,2 juta km
+        \nPeriode orbit: 225 hari
+        \nMassa: 4,867E24 kg (0,815 M⊕′)
+        \nRadius rata-rata: 6.051,8 km"
+        android:fontFamily="@font/poppins"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="-130dp"
+        android:src="@drawable/logo" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="590dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="back"
+        android:src="@drawable/white_bg" />
+
+</RelativeLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    tools:context=".Gallery">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/venus"
+            android:layout_width="900dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="210dp"
+            android:src="@drawable/square_bg" />
+
+        <ImageView
+            android:id="@+id/logovenus"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="230dp"
+            android:src="@drawable/venus_3594270" />
+
+        <ImageView
+            android:id="@+id/neptune"
+            android:layout_width="900dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginRight="210dp"
+            android:src="@drawable/square_bg" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="180dp"
+            android:layout_height="270dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="230dp"
+            android:src="@drawable/neptune_2193367" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="900dp"
+            android:layout_height="300dp"
+            android:layout_marginRight="210dp"
+            android:layout_marginVertical="180dp"
+            android:src="@drawable/square_bg" />
+
+        <ImageView
+            android:id="@+id/logosun"
+            android:layout_width="900dp"
+            android:layout_height="300dp"
+            android:layout_marginRight="210dp"
+            android:layout_marginVertical="180dp"
+            android:src="@drawable/sun_9672697" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="900dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginVertical="180dp"
+            android:src="@drawable/square_bg" />
+
+        <ImageView
+            android:id="@+id/logo2"
+            android:layout_width="900dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginVertical="180dp"
+            android:src="@drawable/moon_9672607" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="220dp"
+            android:layout_below="@+id/solar"
+            android:layout_marginTop="480dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/solar"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/logosun"
+            android:layout_marginTop="-620dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/solarsystem" />
+
+        <TextView
+            android:id="@+id/sun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="430dp"
+            android:layout_marginLeft="70dp"
+            android:fontFamily="@font/gummy"
+            android:text="SN"
+            android:textColor="@color/primarycolor"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/neptune1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="750dp"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/gummy"
+            android:text="NEPTUNE"
+            android:textColor="@color/primarycolor"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/moon"
+            android:layout_width="160dp"
+            android:layout_height="59dp"
+            android:layout_marginVertical="430dp"
+            android:layout_marginLeft="260dp"
+            android:fontFamily="@font/gummy"
+            android:text="MOON"
+            android:textColor="@color/primarycolor"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/venus1"
+            android:layout_width="160dp"
+            android:layout_height="59dp"
+            android:layout_marginVertical="750dp"
+            android:layout_marginLeft="260dp"
+            android:fontFamily="@font/gummy"
+            android:text="VENUS"
+            android:textColor="@color/primarycolor"
+            android:textSize="40dp" />
+
+
+    </RelativeLayout>
+</ScrollView>
